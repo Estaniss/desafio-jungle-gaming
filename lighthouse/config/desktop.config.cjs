@@ -1,0 +1,27 @@
+
+module.exports = {
+  extends: "lighthouse:default",
+
+  settings: {
+    formFactor: "desktop",
+
+    screenEmulation: {
+      mobile: false,
+      width: 1350,
+      height: 940,
+      deviceScaleFactor: 1,
+      disabled: false,
+    },
+
+    throttlingMethod: "simulate",
+
+    onlyCategories: [
+      "performance",
+      "accessibility",
+      "best-practices",
+      "seo",
+    ],
+
+    locale: "pt-BR",
+  },
+};

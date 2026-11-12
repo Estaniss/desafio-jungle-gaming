@@ -1,0 +1,356 @@
+
+.profile-page-content,
+.profile-form {
+  width: 100%;
+  min-width: 0;
+}
+
+.account-content-header {
+  margin: 0 0 34px;
+}
+
+.account-content-header h1 {
+  margin: 0;
+  color: #f4eee6;
+  font-family: "Courier New", monospace;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+}
+
+.profile-fields-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 28px;
+  row-gap: 23px;
+}
+
+.profile-field {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.profile-field label {
+  color: #c6aa91;
+  font-family: "Courier New", monospace;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.profile-field label span {
+  color: #d9904e;
+}
+
+.profile-field input,
+.profile-field select {
+  width: 100%;
+  height: 45px;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 0 14px;
+  color: #f4eee6;
+  background: #1a100c;
+  border: 1px solid #493023;
+  border-radius: 0;
+  outline: none;
+  font-family: "Courier New", monospace;
+  font-size: 11px;
+  font-weight: 400;
+  transition: border-color 160ms ease, background-color 160ms ease;
+}
+
+.profile-field input:focus,
+.profile-field select:focus {
+  border-color: #d9904e;
+}
+
+.profile-field input:disabled {
+  color: #806d5d;
+  background: #160d09;
+  border-color: #39251a;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+.profile-field input::placeholder {
+  color: #755f50;
+  opacity: 1;
+}
+
+/* Nome de usuário */
+
+.profile-input-prefix,
+.profile-ens-input {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  min-width: 0;
+  align-items: center;
+  box-sizing: border-box;
+  background: #1a100c;
+  border: 1px solid #493023;
+  transition: border-color 160ms ease;
+}
+
+.profile-input-prefix:focus-within,
+.profile-ens-input:focus-within {
+  border-color: #d9904e;
+}
+
+.profile-input-prefix > span {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 0 0 14px;
+  color: #d9904e;
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+}
+
+.profile-input-prefix input,
+.profile-ens-input input {
+  height: 100%;
+  border: 0;
+  background: transparent;
+}
+
+.profile-input-prefix input:focus,
+.profile-ens-input input:focus {
+  border: 0;
+  outline: none;
+}
+
+/* Nome ENS */
+
+.profile-ens-input select {
+  width: 72px;
+  height: 100%;
+  flex: 0 0 72px;
+  padding: 0 9px;
+  color: #d9904e;
+  border: 0;
+  border-right: 1px solid #493023;
+  background: #21140f;
+  cursor: pointer;
+}
+
+.profile-ens-input select:focus {
+  border-color: #493023;
+}
+
+.profile-ens-input input {
+  min-width: 0;
+}
+
+/* Avatar */
+
+.profile-avatar-field {
+  min-height: 0;
+}
+
+.profile-avatar-controls {
+  display: flex;
+  min-height: 45px;
+  align-items: center;
+  gap: 16px;
+}
+
+.profile-avatar-preview {
+  display: grid;
+  width: 54px;
+  height: 54px;
+  flex: 0 0 54px;
+  place-items: center;
+  overflow: hidden;
+  color: #d9904e;
+  background: #2a1a12;
+  border: 1px solid #493023;
+  border-radius: 50%;
+}
+
+.profile-avatar-preview img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-avatar-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile-avatar-actions button {
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 0;
+  color: #d9904e;
+  background: transparent;
+  border: 0;
+  font-family: "Courier New", monospace;
+  font-size: 10px;
+  cursor: pointer;
+  transition: color 160ms ease;
+}
+
+.profile-avatar-actions button:hover {
+  color: #f4eee6;
+}
+
+.profile-avatar-actions .profile-avatar-remove {
+  color: #bd806e;
+}
+
+.profile-avatar-actions .profile-avatar-remove:hover {
+  color: #ed9b87;
+}
+
+/* Alteração de senha */
+
+.profile-password-section {
+  width: calc(50% - 14px);
+  margin-top: 39px;
+  padding-top: 27px;
+  border-top: 1px solid #39251a;
+}
+
+.profile-password-section h2 {
+  margin: 0 0 22px;
+  color: #f4eee6;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.profile-password-fields {
+  display: grid;
+  width: 100%;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 18px;
+}
+
+/* Feedback */
+
+.account-feedback {
+  margin: 22px 0 0;
+  padding: 12px 14px;
+  font-family: "Courier New", monospace;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.account-feedback.error {
+  color: #f0a18d;
+  background: #351b15;
+  border-left: 2px solid #d46d50;
+}
+
+.account-feedback.success {
+  color: #a8c99b;
+  background: #182419;
+  border-left: 2px solid #709d60;
+}
+
+/* Ações */
+
+.profile-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30px;
+}
+
+.account-primary-button {
+  display: inline-flex;
+  min-width: 132px;
+  min-height: 45px;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 0 23px;
+  color: #21140f;
+  background: #d9904e;
+  border: 1px solid #d9904e;
+  border-radius: 0;
+  font-family: "Courier New", monospace;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 160ms ease, border-color 160ms ease;
+}
+
+.account-primary-button:hover:not(:disabled) {
+  background: #e5a365;
+  border-color: #e5a365;
+}
+
+.account-primary-button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+/* Carregamento */
+
+.account-loading {
+  padding: 30px 0;
+  color: #a88d78;
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+}
+
+/* Responsividade */
+
+@media (max-width: 900px) {
+  .profile-fields-grid {
+    column-gap: 20px;
+    row-gap: 21px;
+  }
+
+  .profile-password-section {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 680px) {
+  .account-content-header {
+    margin-bottom: 26px;
+  }
+
+  .account-content-header h1 {
+    font-size: 21px;
+  }
+
+  .profile-fields-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 19px;
+  }
+
+  .profile-password-section {
+    width: 100%;
+    margin-top: 32px;
+    padding-top: 23px;
+  }
+
+  .profile-password-fields {
+    gap: 16px;
+  }
+
+  .profile-form-actions {
+    justify-content: stretch;
+    padding-top: 25px;
+  }
+
+  .profile-form-actions .account-primary-button {
+    width: 100%;
+  }
+}

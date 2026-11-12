@@ -1,0 +1,273 @@
+
+/* Estrutura geral da área do colecionador */
+
+.account-page {
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  box-sizing: border-box;
+  padding: 58px 24px 90px;
+  color: #f4eee6;
+  background: #140c09;
+}
+
+.account-container {
+  display: grid;
+  width: 100%;
+  max-width: 1120px;
+  min-width: 0;
+  margin: 0 auto;
+  grid-template-columns: 230px minmax(0, 1fr);
+  align-items: start;
+  column-gap: 52px;
+}
+
+/* Menu lateral */
+
+.account-sidebar {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  min-height: 520px;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 20px 20px 0;
+  border-right: 1px solid #39251a;
+}
+
+.account-sidebar-heading {
+  padding-bottom: 17px;
+  border-bottom: 1px solid #39251a;
+}
+
+.account-sidebar-heading > span {
+  display: block;
+  margin-bottom: 12px;
+  color: #d9904e;
+  font-family: "Courier New", monospace;
+  font-size: 9px;
+  letter-spacing: 1.3px;
+}
+
+.account-sidebar-heading h2 {
+  margin: 0;
+  color: #f4eee6;
+  font-family: "Courier New", monospace;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+/* Navegação */
+
+.account-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 18px;
+}
+
+.account-nav-item {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 42px;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 12px;
+  box-sizing: border-box;
+  padding: 0 12px;
+  color: #a88d78;
+  background: transparent;
+  border: 0;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 11px;
+  text-align: left;
+  cursor: pointer;
+  transition: color 160ms ease, background 160ms ease;
+}
+
+.account-nav-item:hover:not(:disabled) {
+  color: #f4eee6;
+  background: #2b1b13;
+}
+
+.account-nav-item.active {
+  color: #d9904e;
+  background: #2b1b13;
+}
+
+.account-nav-item.active::before {
+  position: absolute;
+  top: 7px;
+  bottom: 7px;
+  left: 0;
+  width: 3px;
+  background: #d9904e;
+  content: "";
+}
+
+.account-nav-item:disabled {
+  opacity: 0.75;
+  cursor: default;
+}
+
+/* Rodapé do menu */
+
+.account-sidebar-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  margin-top: auto;
+  padding-top: 24px;
+  border-top: 1px solid #39251a;
+}
+
+.account-sidebar-user {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 11px;
+}
+
+.account-user-avatar {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
+  place-items: center;
+  color: #21140f;
+  background: #d9904e;
+  border-radius: 50%;
+  font-family: "Courier New", monospace;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.account-sidebar-user > div {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.account-sidebar-user strong {
+  overflow: hidden;
+  color: #f4eee6;
+  font-size: 11px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.account-sidebar-user > div > span {
+  overflow: hidden;
+  color: #a88d78;
+  font-size: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.account-logout-button {
+  display: flex;
+  min-height: 38px;
+  align-items: center;
+  gap: 10px;
+  padding: 0 12px;
+  color: #bd806e;
+  background: transparent;
+  border: 1px solid #39251a;
+  font-family: "Courier New", monospace;
+  font-size: 11px;
+  cursor: pointer;
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.account-logout-button:hover {
+  color: #f0a18d;
+  background: #2b1b13;
+}
+
+/* Conteúdo principal */
+
+.account-main {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .account-page {
+    padding: 42px 22px 65px;
+  }
+
+  .account-container {
+    grid-template-columns: 195px minmax(0, 1fr);
+    column-gap: 28px;
+  }
+
+  .account-sidebar {
+    padding-right: 15px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 680px) {
+  .account-page {
+    padding: 30px 18px 50px;
+  }
+
+  .account-container {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 30px;
+  }
+
+  .account-sidebar {
+    min-height: 0;
+    padding: 0 0 20px;
+    border-right: 0;
+    border-bottom: 1px solid #39251a;
+  }
+
+  .account-sidebar-heading {
+    padding-bottom: 14px;
+  }
+
+  .account-navigation {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-top: 14px;
+  }
+
+  .account-nav-item {
+    width: auto;
+    min-height: 38px;
+    padding: 0 10px;
+  }
+
+  .account-nav-item.active::before {
+    top: auto;
+    right: 7px;
+    bottom: 0;
+    left: 7px;
+    width: auto;
+    height: 2px;
+  }
+
+  .account-sidebar-footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 17px;
+  }
+
+  .account-logout-button {
+    width: auto;
+    padding: 0 12px;
+  }
+}

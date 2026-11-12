@@ -1,0 +1,359 @@
+{
+  "generatedAt": "2026-11-12T19:12:45.014Z",
+  "nodeVersion": "v24.21.0",
+  "npmVersion": "npm/11.19.0 node/v24.21.0 win32 x64 workspaces/false",
+  "lighthouseVersion": "13.6.0",
+  "chromePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "baseUrl": "http://127.0.0.1:4173",
+  "mockEnvironment": {
+    "VITE_ENABLE_MOCKS": "true",
+    "VITE_MOCK_SCENARIO": "success"
+  },
+  "repetitions": 3,
+  "categories": [
+    "performance",
+    "accessibility",
+    "best-practices",
+    "seo"
+  ],
+  "results": [
+    {
+      "profile": "mobile",
+      "page": "home",
+      "url": "http://127.0.0.1:4173/",
+      "run": 1,
+      "scores": {
+        "performance": 85,
+        "accessibility": 90,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "metrics": {
+        "lcpMs": 1006,
+        "cls": 0,
+        "tbtMs": 597
+      },
+      "lighthouseVersion": "13.6.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T19:09:45.219Z"
+    },
+    {
+      "profile": "mobile",
+      "page": "home",
+      "url": "http://127.0.0.1:4173/",
+      "run": 2,
+      "scores": {
+        "performance": 89,
+        "accessibility": 90,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "metrics": {
+        "lcpMs": 918,
+        "cls": 0,
+        "tbtMs": 447
+      },
+      "lighthouseVersion": "13.6.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T19:10:03.026Z"
+    },
+    {
+      "profile": "mobile",
+      "page": "home",
+      "url": "http://127.0.0.1:4173/",
+      "run": 3,
+      "scores": {
+        "performance": 83,
+        "accessibility": 90,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "metrics": {
+        "lcpMs": 921,
+        "cls": 0,
+        "tbtMs": 672
+      },
+      "lighthouseVersion": "13.6.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T19:10:18.835Z"
+    },
+    {
+      "profile": "mobile",
+      "page": "nft-details",
+      "url": "http://127.0.0.1:4173/nft/emerald-ape-042",
+      "run": 1,
+      "scores": {
+        "performance": 90,
+        "accessibility": 97,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "metrics": {
+        "lcpMs": 2876,
+        "cls": 0,
+        "tbtMs": 253
+      },
+      "lighthouseVersion": "13.6.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T19:10:36.209Z"
+    },
+    {
+      "profile": "mobile",
+      "page": "nft-details",
+      "url": "http://127.0.0.1:4173/nft/emerald-ape-042",
+      "run": 2,
+      "scores": {
+        "performance": 90,
+        "accessibility": 97,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "metrics": {
+        "lcpMs": 2853,
+        "cls": 0,
+        "tbtMs": 286
+      },
+      "lighthouseVersion": "13.6.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T19:10:51.260Z"
+    },
+    {
+      "profile": "mobile",
+      "page": "nft-details",
+      "url": "http://127.0.0.1:4173/nft/emerald-ape-042",
+      "run": 3,
+      "scores": {
+        "performance": 95,
+        "accessibility": 97,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "metrics": {
+        "lcpMs": 2937,
+        "cls": 0,
+        "tbtMs": 70
+      },
+      "lighthouseVersion": "13.6.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T19:11:05.402Z"
+    },
+    {
+      "profile": "desktop",
+      "page": "home",
+      "url": "http://127.0.0.1:4173/",
+      "run": 1,
+      "scores": {
+        "performance": 78,
+        "accessibility": 90,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "metrics": {
+        "lcpMs": 3024,
+        "cls": 0,
+        "tbtMs": 172
+      },
+      "lighthouseVersion": "13.6.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T19:11:19.384Z"
+    },
+    {
+      "profile": "desktop",
+      "page": "home",
+      "url": "http://127.0.0.1:4173/",
+      "run": 2,
+      "scores": {
+        "performance": 79,
+        "accessibility": 90,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "metrics": {
+        "lcpMs": 2867,
+        "cls": 0,
+        "tbtMs": 162
+      },
+      "lighthouseVersion": "13.6.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T19:11:33.797Z"
+    },
+    {
+      "profile": "desktop",
+      "page": "home",
+      "url": "http://127.0.0.1:4173/",
+      "run": 3,
+      "scores": {
+        "performance": 81,
+        "accessibility": 90,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "metrics": {
+        "lcpMs": 3020,
+        "cls": 0,
+        "tbtMs": 110
+      },
+      "lighthouseVersion": "13.6.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T19:11:48.094Z"
+    },
+    {
+      "profile": "desktop",
+      "page": "nft-details",
+      "url": "http://127.0.0.1:4173/nft/emerald-ape-042",
+      "run": 1,
+      "scores": {
+        "performance": 52,
+        "accessibility": 97,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "metrics": {
+        "lcpMs": 3084,
+        "cls": 0,
+        "tbtMs": 905
+      },
+      "lighthouseVersion": "13.6.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T19:12:03.899Z"
+    },
+    {
+      "profile": "desktop",
+      "page": "nft-details",
+      "url": "http://127.0.0.1:4173/nft/emerald-ape-042",
+      "run": 2,
+      "scores": {
+        "performance": 82,
+        "accessibility": 97,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "metrics": {
+        "lcpMs": 2798,
+        "cls": 0,
+        "tbtMs": 115
+      },
+      "lighthouseVersion": "13.6.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T19:12:20.612Z"
+    },
+    {
+      "profile": "desktop",
+      "page": "nft-details",
+      "url": "http://127.0.0.1:4173/nft/emerald-ape-042",
+      "run": 3,
+      "scores": {
+        "performance": 82,
+        "accessibility": 97,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "metrics": {
+        "lcpMs": 2852,
+        "cls": 0,
+        "tbtMs": 115
+      },
+      "lighthouseVersion": "13.6.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T19:12:34.957Z"
+    }
+  ],
+  "summary": {
+    "mobile": {
+      "home": {
+        "executions": 3,
+        "categories": {
+          "performance": 85,
+          "accessibility": 90,
+          "best-practices": 96,
+          "seo": 92
+        },
+        "metrics": {
+          "lcpMs": 921,
+          "cls": 0,
+          "tbtMs": 597
+        },
+        "goals": {
+          "performance": 90,
+          "accessibility": 95,
+          "best-practices": 95,
+          "seo": 90
+        }
+      },
+      "nft-details": {
+        "executions": 3,
+        "categories": {
+          "performance": 90,
+          "accessibility": 97,
+          "best-practices": 96,
+          "seo": 92
+        },
+        "metrics": {
+          "lcpMs": 2876,
+          "cls": 0,
+          "tbtMs": 253
+        },
+        "goals": {
+          "performance": 90,
+          "accessibility": 95,
+          "best-practices": 95,
+          "seo": 90
+        }
+      }
+    },
+    "desktop": {
+      "home": {
+        "executions": 3,
+        "categories": {
+          "performance": 79,
+          "accessibility": 90,
+          "best-practices": 96,
+          "seo": 92
+        },
+        "metrics": {
+          "lcpMs": 3020,
+          "cls": 0,
+          "tbtMs": 162
+        },
+        "goals": {
+          "performance": 90,
+          "accessibility": 95,
+          "best-practices": 95,
+          "seo": 90
+        }
+      },
+      "nft-details": {
+        "executions": 3,
+        "categories": {
+          "performance": 82,
+          "accessibility": 97,
+          "best-practices": 96,
+          "seo": 92
+        },
+        "metrics": {
+          "lcpMs": 2852,
+          "cls": 0,
+          "tbtMs": 115
+        },
+        "goals": {
+          "performance": 90,
+          "accessibility": 95,
+          "best-practices": 95,
+          "seo": 90
+        }
+      }
+    }
+  }
+}
