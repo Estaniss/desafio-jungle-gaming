@@ -13,7 +13,7 @@ Marketplace de NFTs desenvolvido com React, TypeScript e Vite, com API simulada 
 Clone o repositório:
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/Estaniss/desafio-jungle-gaming.git
 cd desafio-jungle-gaming
 ```
 
